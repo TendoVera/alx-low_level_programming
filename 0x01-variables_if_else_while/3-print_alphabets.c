@@ -9,18 +9,18 @@
 int main(void)
 {
 	char c;
-	
 	char m;
 
 	c = 'a';
 	m = 'A';
+
 	while 
 		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
 	while
-		(m <= 'z'){
+		(m <= 'z') {
 			putchar(c);
 			m++;
 		}
