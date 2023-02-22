@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print _alphabet - put alphabet
+ * print_alphabet - put alphabet
  *
  * Return: 1 if c is a letter, 0 otherwise
  */
