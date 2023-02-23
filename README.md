@@ -1,1 +1,1 @@
-other readme
+more functions
