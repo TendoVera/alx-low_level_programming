@@ -37,5 +37,5 @@ int main(void)
 	print_array(a, sizeof(a) / sizeof(int));
 	reverse_array(a, sizeof(a) / sizeof(int));
 	print_array(a, sizeof(a) / sizeof(int));
-	retrun (0);
+	return (0);
 }
