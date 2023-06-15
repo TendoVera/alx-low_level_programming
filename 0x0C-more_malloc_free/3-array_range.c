@@ -6,7 +6,7 @@
  * @min: minimum value
  * @max: maximum value
  *
- * Return: array.
+ * Return: arr(array).
  */
 int *array_range(int min, int max)
 {
