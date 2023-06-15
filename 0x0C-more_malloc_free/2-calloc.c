@@ -3,26 +3,26 @@
 
 /**
  * _calloc - memory for an array, using malloc.
- * @nmemb: number of elements.
+ * @nmemb: elements of size.
  * @size: size of bytes.
  *
- * Return: void.
+ * Return: m.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *p;
+	char *m;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	p = malloc(nmemb * size);
+	m = malloc(nmemb * size);
 
-	if (p == NULL)
+	if (m == NULL)
 		return (NULL);
 
 	for (i = 0; i < (nmemb * size); i++)
-		p[i] = 0;
+		m[i] = 0;
 
-	return (p);
+	return (m);
 }
