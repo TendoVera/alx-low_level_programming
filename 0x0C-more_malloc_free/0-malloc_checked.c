@@ -6,14 +6,14 @@
  * malloc_checked - allocates memory using malloc.
  * @b: number of memory
  *
- * Return: void.
+ * Return: m.
  */
 void *malloc_checked(unsigned int b)
 {
-	char *p;
+	char *m;
 
-	p = malloc(b);
-	if (p == NULL)
+	m = malloc(b);
+	if (m == NULL)
 		exit(98);
-	return (p);
+	return (m);
 }
