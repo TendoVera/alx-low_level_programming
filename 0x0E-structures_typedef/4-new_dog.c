@@ -29,7 +29,7 @@ int _strlen(char *s)
 * @dest: destination
 * @src: string
 *
-* Return: the pointer to dest
+* Return: dest
 */
 char *_strcpy(char *dest, char *src)
 {
@@ -55,11 +55,11 @@ char *_strcpy(char *dest, char *src)
 
 /**
 * new_dog - creates a new dog
-* @name: name of the dog
-* @age: age of the dog
+* @name: of the dog
+* @age: of the dog
 * @owner: owner of the dog
 *
-* Return: pointer to the new dog (Success), NULL otherwise
+* Return: NULL
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
