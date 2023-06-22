@@ -6,7 +6,7 @@
  *@n: integer of sum
  *@...: number to calculate sum.
  *
- *Return: If n == 0, return 0
+ *Return:: sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
