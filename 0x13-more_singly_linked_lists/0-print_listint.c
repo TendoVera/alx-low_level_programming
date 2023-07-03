@@ -3,19 +3,19 @@
 #include <stdio.h>
 
 /**
- * print_listint -  prints all the elements of a listint_t list.
- * @h: list to be printed.
+ * print_listint -  function that prints all the elements of listint_t list.
+ * @h: list.
  *
- *Return: number of nodes.
+ *Return: the number of nodes.
  */
 size_t print_listint(const listint_t *h)
 {
-size_t num = 0;
+size_t node = 0;
 while (h)
 {
 printf("%d\n", h->n);
-num++;
+node++;
 h = h->next;
 }
-return (num);
+return (node);
 }
