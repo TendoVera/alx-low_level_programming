@@ -1,4 +1,4 @@
-#iclude "lists.h"
+#include "lists.h"
 /**
  * sum_listint - returns the sum of all the data (n) of listint_t linked list.
  * @head: linked list.
