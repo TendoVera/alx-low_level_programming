@@ -19,6 +19,6 @@ int append_text_to_file(const char *filename, char *text_content)
 	lett = write(add, text_content, new);
 	if (add == -1 || lett == -1)
 		return (-1);
-	close (add);
+	close(add);
 	return (1);
 }
