@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+
 unsigned long int n;
 
 n = 1024;
