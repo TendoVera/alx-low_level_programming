@@ -1,1 +1,1 @@
-doing more C functions
+doing more C function and working with binary codes.
