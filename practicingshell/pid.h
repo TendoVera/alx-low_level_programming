@@ -1,6 +1,5 @@
 #ifndef PID_H
 #define PID_H
 
-int main(void);
-
+int main(int argc, char *argv[]);
 #endif
